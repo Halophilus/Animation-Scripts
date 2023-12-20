@@ -375,7 +375,7 @@ Set the input image, zoom coordinates, number of frames, dimensions of the zoom 
 **LoadingTilesVideo**
 
 **Description:**  
-"LoadingTilesVideo" is a Python script that progressively reveals video frames by showing them in small tiles. It supports both sequential and random tile revealing patterns, and can work with a range of settings like tile size, background color, and tile persistence. This script is ideal for creating scanline loading effects and retro animation/transition sequences.
+"LoadingTilesVideo" is a Python script that progressively reveals video frames by showing them in small tiles. It supports both sequential and random tile revealing patterns, and can work with a range of settings like tile size, background color, and tile persistence. This script is ideal for creating screen tearing loading effects and retro animation/transition sequences.
 
 **Usage:**  
 To use this script, specify the input directory, tile dimensions, background color, sequential or random tile order, range of random tiles to reveal per frame, and tile persistence option. The script processes each frame in the input directory's subdirectories, revealing it tile by tile.
