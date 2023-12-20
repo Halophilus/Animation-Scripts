@@ -1,3 +1,32 @@
+**Bootsequencer**
+
+**Description:**
+The "Bootsequencer" script is designed to generate a series of frames, each containing a portion of text, to create an animated "typing out" effect. It takes a text file as input and outputs a series of PNG image files, each containing a frame of the animation.
+
+**Usage:**
+To use the script, simply provide it with the necessary input parameters, such as the path to the input text file, the desired dimensions of the output frames, and the path to the output folder. Additional customization options are available, such as the font style, text color, background color, and typing indicator symbol.
+
+Once the script is run, it will process the input text file, generating a series of frames that simulate the effect of text being typed out on a screen. The resulting image frames can be combined to create an animated sequence, either through a video editing program or another script.
+
+**Key Features:**
+- Generates animated "typing out" sequences from text files.
+- Customizable font style, text color, background color, and typing indicator.
+- Outputs individual PNG frames for easy integration into video projects.
+
+**How to Use:**
+1. Modify the script to specify the following parameters:
+   - Path to the input text file.
+   - Desired dimensions of the output frames.
+   - Path to the output folder where frames will be saved.
+   - Customization options such as font style, text color, and background color.
+
+2. Run the script using a Python interpreter.
+
+3. The script will process the input text file and generate a series of PNG frames in the output folder.
+
+4. Combine the frames to create an animated "typing out" effect using video editing software or other tools.
+
+**REMAINING SCRIPTS**
 **FRAMEDUPLICATOR**
     Duplicate frames: Duplicates the selected frames a specified number of times and optionally jumbles them randomly.
     Insert images: Inserts images from the selected folder into a destination folder at a specified index.
