@@ -64,10 +64,10 @@ if __name__ == '__main__':
     output_dir = "C:\\Users\\Thomas.Henshaw001\\Development\\ImageVideoManipulator\\Animation Scripts\\Test Frames\\LoadingTiles\\output"
     image_path = "C:\\Users\\Thomas.Henshaw001\\Development\\ImageVideoManipulator\\Animation Scripts\\Test Frames\\LoadingTiles\\50.png"
     input_folder = "C:\\Users\\Thomas.Henshaw001\\Development\\ImageVideoManipulator\\Animation Scripts\\Test Frames\\LoadingTiles\\input"
-    x = 80
-    y = 60
+    x = 160
+    y = 120
     background_color = None
-    sequential = True
+    sequential = False
     random_tiles_range = (500, 600)
     persist_tiles = True
 

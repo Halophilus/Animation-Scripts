@@ -30,7 +30,7 @@ def superimpose_frames(paste_point, input_folder_1, input_folder_2, output_folde
 
 if __name__ == "__main__":
     # Replace these values with your desired values
-    paste_x = 0
+    paste_x = 260
     paste_y = 0
     input_folder_1 = "C:\\Users\\Thomas.Henshaw001\\Development\\ImageVideoManipulator\\Animation Scripts\\Test Frames\\FrameSuperimposer\\input_folder_1"
     input_folder_2 = "C:\\Users\\Thomas.Henshaw001\\Development\\ImageVideoManipulator\\Animation Scripts\\Test Frames\\FrameSuperimposer\\input_folder_2"

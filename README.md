@@ -47,7 +47,6 @@ This script processes a folder containing MP4 video files, applying a lower fide
 
 To use this script:
 
-    Make sure you have Python 3 installed, along with the required libraries (OpenCV, NumPy, and Pillow).
     Replace the input_folder variable with the path to the folder containing your MP4 video files.
     Run the script, and it will process all the MP4 files in the specified folder.
     The output frames will be saved as PNG images in subfolders named after the input video files, located within the input folder.
@@ -79,13 +78,11 @@ Features
 
 How to use
 
-    Run the script using Python 3.
     Use the "Browse" button to select the folder containing the PNG images or video files you wish to process.
     Enter the desired name for the output file in the "Output file" field (default is "CLIP").
     Click the "Generate" button to generate a video from the PNG images in the selected folder.
     Click the "Concatenate" button to concatenate the video files in the selected folder.
 
-Note: The script requires the moviepy and Pillow libraries to be installed. You can install them using pip install moviepy Pillow
 
 **Bootsequencer**
 This script is designed to generate a series of frames, each containing a portion of text, to create an animated "typing out" effect. It takes a text file as input, and outputs a series of PNG image files, each containing a frame of the animation.
@@ -99,7 +96,6 @@ The purpose of this script is to emulate the effect of video resampling that occ
 
 How to use it:
 
-    Ensure you have Python installed on your system and the OpenCV library (cv2) installed.
     Run the script in a Python environment (e.g., via the command line or an IDE).
     When prompted, enter the following information:
         The path to the folder containing the input images in sequential order (e.g., 0.png, 1.png, 2.png, ...).
@@ -117,12 +113,6 @@ This Python script creates a smooth transition between two sets of image frames 
 
 How to Use:
 
-    Install the required library: Install the Pillow library for Python by running the following command in your terminal or command prompt:
-
-bash
-
-pip install pillow
-
     Prepare your input and output folders: Organize your image sets into two separate input folders (input_folder1 and input_folder2) and create an output folder where the transition frames will be saved.
 
     Configure the script: Replace 'path/to/your/input_folder1', 'path/to/your/input_folder2', and 'path/to/your/output_folder' in the script with the paths to your input and output folders.
@@ -135,10 +125,6 @@ pip install pillow
 The purpose of this Python script is to generate a specified number of colored static noise frames with a defined resolution and save them to an output folder. The static noise is a random assortment of colors, rather than just black and white.
 
 To use this script:
-
-    Make sure you have the PIL (Python Imaging Library) installed. If not, you can install it using pip:
-
-    pip install pillow
 
     Set the num_frames, resolution, and output_folder variables in the script according to your requirements:
         num_frames: The number of static noise frames you want to generate.
@@ -163,12 +149,6 @@ The purpose of this script is to apply Gaussian noise with a random intensity to
 
 To use the script:
 
-    Make sure you have Python installed, along with the required libraries: OpenCV and NumPy. You can install them using pip if you don't have them already:
-
-bash
-
-pip install opencv-python numpy
-
     Copy the script into a new Python file, e.g., add_gaussian_noise.py.
 
     Replace the input_folder and output_folder paths in the script with the appropriate directories for your images. The input_folder should contain the images you want to apply noise to, and the output_folder is where the script will save the noisy images.
@@ -183,8 +163,6 @@ The script works by randomly selecting pairs of images from the input folder, re
 
 To use the script:
 
-    Install the Python Imaging Library (PIL) by running pip install pillow if you haven't already.
-    Replace the input_folder variable with the path to your folder containing the image frames you want to use.
     Replace the output_folder variable with the path to the folder where you want to save the generated glitched images. If the folder doesn't exist, the script will create it.
     Set the num_output_images variable to the desired number of glitched images you want to generate.
     Run the script. The generated glitched images will be saved in the specified output folder with names in the format glitched_{i}.png, where i is a unique index.
@@ -196,7 +174,6 @@ This script is designed to convert a specific color in a folder of PNG images to
 
 How to use:
 
-    Make sure you have the Python Imaging Library (PIL) installed. You can install it with the command pip install pillow.
     Save the script as a Python file, e.g., color_to_transparency.py.
     Modify the folder_path, target_color, and tolerance variables within the script according to your needs:
         folder_path: Replace path/to/your/folder with the actual folder path containing the PNG images.
@@ -223,10 +200,6 @@ This script applies a CRT flickering effect to a sequence of images by randomly 
 
 Here's how to use the script:
 
-    Install the Pillow library using the command pip install pillow.
-
-    Save the provided script to a file, e.g., crt_flicker_effect.py.
-
     Modify the following variables in the script to suit your needs:
         input_folder: The path to the folder containing your input frames.
         output_folder: The path where you want the modified frames to be saved.
@@ -241,8 +214,6 @@ This script is designed to find font sizes without partially transparent pixels 
 
 To use the script, follow these steps:
 
-    Make sure you have Python installed on your system.
-    Install the Pillow library using pip: pip install Pillow
     Replace 'path/to/your/font_file.ttf' in the script with the actual path to the font file you want to use.
     Modify the char_set variable if you want to use a different set of characters for testing.
     Set the min_size and max_size variables to the desired range of font sizes you want to test.
